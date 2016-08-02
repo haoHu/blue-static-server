@@ -5,7 +5,7 @@ describe('startup', function () {
 	it('startup -p 9000 -a 127.0.0.1 -d 3 -r .', function () {
 		app({
 			address : '127.0.0.1',
-			port : 8080,
+			port : 9080,
 			deep : 3,
 			root : '.'
 		});
