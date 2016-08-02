@@ -1,0 +1,41 @@
+{
+  "name": "blue-static-server",
+  "version": "0.1.0",
+  "author" : {
+    "name" : "blue"
+  },
+  "description" : "Startup a static file server with koa",
+  "main" : "app.js",
+  "bin" : {
+    "bss" : "./bin/bss.js"
+  },
+  "scripts": {
+    "publish" : "npm publish .",
+    "test": "mocha test/app.test.js"
+  },
+  "dependencies": {
+    "co": "^4.6.0",
+    "debug": "^2.2.0",
+    "ejs": "~2.3.3",
+    "koa": "^2.0.0",
+    "koa-compress" : "^2.0.0",
+    "koa-conditional-get": "^2.0.0",
+    "koa-etag": "^3.0.0",
+    "koa-favicon": "^2.0.0",
+    "koa-logger" : "^2.0.0",
+    "koa-static": "^3.0.0",
+    "commander" : "^2.9.0",
+    "opener": "~1.4.0",
+    "lodash" : "~3.10.1",
+    "showdown" : "1.4.2"
+  },
+  "devDependencies": {
+    "chai" : "^3.5.0",
+    "mocha" : "~2.3.3"
+  },
+  "keywords" : [
+    "koa",
+    "static",
+    "server"
+  ]
+}
