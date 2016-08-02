@@ -37,5 +37,9 @@
     "koa",
     "static",
     "server"
-  ]
+  ],
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/haoHu/blue-static-server.git"
+  }
 }
